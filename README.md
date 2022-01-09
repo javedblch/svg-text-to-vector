@@ -1,6 +1,6 @@
 # svg-text-to-path
 
-> Converts to path all the Textfield tags within an SVG file.
+> Converts to a vector path all the textfield tags in an SVG file.
 
 ## Installation
 
