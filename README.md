@@ -126,7 +126,7 @@ Params | &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 **options.fontPath** | {String} | **Optional** - Param for default font path. Applicable if unable to find relevant fonts and **options.font** param is defined. Default is **./public/fonts/times.ttf**
 **options.fontSize** | {Number} | **Optional** - Param for default font size. Applicable if no font size is defined within SVG text tag. Default is **16**
 
-### Convert to Path SVG Sample
+## Convert to Path SVG Sample
 
 - https://raw.githubusercontent.com/javedblch/svg-text-to-path/main/public/convert/convert-to-path.svg
 
