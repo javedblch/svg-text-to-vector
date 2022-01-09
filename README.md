@@ -75,7 +75,7 @@ const file = await svgTextPath.getPath(options);
 ```javascript
 var font={"name":"Lexend Tera","path": "./public/fonts/lexend_tera.ttf"};
 
-const addFonts = await svgTextPath.push(font); // adds font to svg-text-to-vector/config/fonts.json file on runtime
+const addFonts = await svgTextPath.push(font); // adds font to svg-text-to-vector/config/fonts.json file
 
 ```
 
