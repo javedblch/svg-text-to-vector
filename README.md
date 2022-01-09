@@ -1,11 +1,11 @@
-# svg-text-to-path
+# svg-text-to-vector
 
 > Converts textfield tags in an SVG file to vector paths.
 
 ## Installation
 
 ```bash
-npm install --save svg-text-to-path
+npm install --save svg-text-to-vector
 ```
 
 ## Usage
@@ -66,7 +66,7 @@ const file = await svgTextPath.getPath(options);
 ```
 ## Add Fonts
 
-- All font names / paths load from **svg-text-to-path/config/fonts.json** file
+- All font names / paths load from **svg-text-to-vector/config/fonts.json** file
 
 ### Runtime
 
@@ -75,13 +75,13 @@ const file = await svgTextPath.getPath(options);
 ```javascript
 var font={"name":"Lexend Tera","path": "./public/fonts/lexend_tera.ttf"};
 
-const addFonts = await svgTextPath.push(font); // adds font to svg-text-to-path/config/fonts.json file on runtime
+const addFonts = await svgTextPath.push(font); // adds font to svg-text-to-vector/config/fonts.json file on runtime
 
 ```
 
 ### Manual
 
-- Open **svg-text-to-path/config/fonts.json**
+- Open **svg-text-to-vector/config/fonts.json**
 
 ```javascript
 {
@@ -123,12 +123,12 @@ Params | &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 **options.load** | {String - Buffer - Base64 - UTF-8} | Contains SVG object that needs to be converted. Loads from a **Local Directory** or from type **Buffer** - **Base64** - **SVG String**
 **options.save** | {String} | Returns the convert to path SVG object. Saves to a **Local Directory** or returns type **Buffer** - **Base64** - **SVG String**
 **options.font** | {String} | **Optional** - Param for default font. Applicable if unable to find the relevant font. Default is **Times New Roman**
-**options.fontPath** | {String} | **Optional** - Param for default font path. Applicable if unable to find relevant fonts and **options.font** param is defined. Default is **./public/fonts/times.ttf**
+**options.fontPath** | {String} | **Optional** - Param for default font path. Applicable if unable to find relevant fonts and **options.font** param is defined. Default is **svg-text-to-vector/config/fonts/times.ttf**
 **options.fontSize** | {Number} | **Optional** - Param for default font size. Applicable if no font size is defined within SVG text tag. Default is **16**
 
 ## Convert to Path SVG Sample
 
-- https://raw.githubusercontent.com/javedblch/svg-text-to-path/main/public/convert/convert-to-path.svg
+- https://raw.githubusercontent.com/javedblch/svg-text-to-vector/main/public/convert/convert-to-path.svg
 
 # License
 
