@@ -31,7 +31,7 @@ data=Buffer.from(buffer);
 
 var options={
 load:data, // load svg file as buffer
-save:'buffer' // setting string value as 'buffer' returns convert to path svg as type buffer
+save:'buffer' // string value as 'buffer' returns convert to path svg as type buffer
 }	
 
 const file = await svgTextPath.getPath(options);
@@ -45,7 +45,7 @@ var data = fs.readFileSync(loadPath,'base64');
 
 var options={
 load:data, // load svg file as base64
-save:'base64' // setting string value as 'base64' returns convert to path svg as type base64
+save:'base64' // string value as 'base64' returns convert to path svg as type base64
 }	
 
 const file = await svgTextPath.getPath(options);
@@ -59,7 +59,7 @@ var data = fs.readFileSync(loadPath,{encoding:'utf8'});
 
 var options={
 load:data, // load svg file as SVG string
-save:'utf8' | 'utf-8' // setting string value as 'utf8' | 'utf-8' returns convert to path svg as SVG string
+save:'utf8' | 'utf-8' // string value as 'utf8' | 'utf-8' returns convert to path svg as SVG string
 }	
 
 const file = await svgTextPath.getPath(options);
@@ -75,7 +75,7 @@ const file = await svgTextPath.getPath(options);
 ```javascript
 var font={"name":"Lexend Tera","path": "./public/fonts/lexend_tera.ttf"};
 
-const addFonts = await svgTextPath.push(font); // adds the font to svg-text-to-path/config/fonts.json file on runtime
+const addFonts = await svgTextPath.push(font); // adds font to svg-text-to-path/config/fonts.json file on runtime
 
 ```
 
