@@ -15,8 +15,8 @@ npm install --save svg-text-to-vector
 ```javascript
 
 var options={
-load:'/path/file.svg', // path to load svg file from
-save:'/path/file-convert.svg' // path to save convert to path svg file to
+load:'file.svg',
+save:'file-convert.svg'
 }	
 
 const file = await svgTextPath.getPath(options);
@@ -26,12 +26,12 @@ const file = await svgTextPath.getPath(options);
 
 ```javascript
 
-var data = fs.readFileSync('/path/file.svg');
-data=Buffer.from(buffer);
+var data = fs.readFileSync('file.svg');
+data=Buffer.from(data);
 
 var options={
-load:data, // load svg file as buffer
-save:'buffer' // string value as 'buffer' returns convert to path svg as type buffer
+load:data, 
+save:'buffer' 
 }	
 
 const file = await svgTextPath.getPath(options);
@@ -41,11 +41,11 @@ const file = await svgTextPath.getPath(options);
 
 ```javascript
 
-var data = fs.readFileSync(loadPath,'base64');
+var data = fs.readFileSync('file.svg','base64');
 
 var options={
-load:data, // load svg file as base64
-save:'base64' // string value as 'base64' returns convert to path svg as type base64
+load:data, 
+save:'base64' 
 }	
 
 const file = await svgTextPath.getPath(options);
@@ -55,11 +55,11 @@ const file = await svgTextPath.getPath(options);
 
 ```javascript
 
-var data = fs.readFileSync(loadPath,{encoding:'utf8'});
+var data = fs.readFileSync('file.svg',{encoding:'utf8'});
 
 var options={
-load:data, // load svg file as SVG string
-save:'utf8' | 'utf-8' // string value as 'utf8' | 'utf-8' returns convert to path svg as SVG string
+load:data,
+save:'utf8' | 'utf-8'
 }	
 
 const file = await svgTextPath.getPath(options);
