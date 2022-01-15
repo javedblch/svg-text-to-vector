@@ -19,50 +19,50 @@ load:'file.svg',
 save:'file-convert.svg'
 }	
 
-const file = await svgTextPath.getPath(options);
+const convert = await svgTextPath.getPath(options);
 
 ```
 ### As Buffer
 
 ```javascript
 
-var data = fs.readFileSync('file.svg');
-data=Buffer.from(data);
+var svg = fs.readFileSync('file.svg');
+svg=Buffer.from(svg);
 
 var options={
-load:data, 
+load:svg, 
 save:'buffer' 
 }	
 
-const file = await svgTextPath.getPath(options);
+const convert = await svgTextPath.getPath(options);
 
 ```
 ### As Base64
 
 ```javascript
 
-var data = fs.readFileSync('file.svg','base64');
+var svg = fs.readFileSync('file.svg','base64');
 
 var options={
-load:data, 
+load:svg, 
 save:'base64' 
 }	
 
-const file = await svgTextPath.getPath(options);
+const convert = await svgTextPath.getPath(options);
 
 ```
 ### As SVG String (utf-8)
 
 ```javascript
 
-var data = fs.readFileSync('file.svg',{encoding:'utf8'});
+var svg = fs.readFileSync('file.svg',{encoding:'utf8'});
 
 var options={
-load:data,
+load:svg,
 save:'utf8' | 'utf-8'
 }	
 
-const file = await svgTextPath.getPath(options);
+const convert = await svgTextPath.getPath(options);
 ```
 ## Add Fonts
 
@@ -73,9 +73,9 @@ const file = await svgTextPath.getPath(options);
 - Dynamically add fonts with json key / values {"name", "path"}. Each font needs to be added one time only for all future use.
 
 ```javascript
-var font={"name":"Lexend Tera","path": "./public/fonts/lexend_tera.ttf"};
+var font={"name":"Lexend Tera","path": "/lexend_tera.ttf"};
 
-const addFonts = await svgTextPath.push(font); // adds font to svg-text-to-vector/config/fonts.json file
+const addFonts = await svgTextPath.push(font);
 
 ```
 
@@ -128,7 +128,8 @@ Params | &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 
 ## Convert to Path SVG Sample
 
-- https://raw.githubusercontent.com/javedblch/svg-text-to-vector/main/public/convert/convert-to-path.svg
+<img src="https://raw.githubusercontent.com/javedblch/svg-text-to-vector/main/public/convert/convert-to-path.svg">
+
 
 # License
 
