@@ -1,6 +1,15 @@
 # svg-text-to-vector
 
-> Converts textfield tags in an SVG file to vector paths.
+> ### A powerful tool for working with text in SVG (Scalable Vector Graphics) files.
+
+**- Inkscape like Conversion:** An efficient solution to more traditional alternatives like Inkscape to perform the runtime conversion of complex svg files.
+
+**- Easy to Use:** Provides a simple API to convert text to vector format with just a few lines of code.
+
+**- High performance:** The package ensures fast and efficient performance.
+
+**- Compatibility:** Fully compatible with all the popular Node.js frameworks.
+
 
 ## Installation
 
