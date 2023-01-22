@@ -14,6 +14,8 @@ npm install --save svg-text-to-vector
 
 ```javascript
 
+var svgTextPath = require('svg-text-to-vector');
+
 var options={
 load:'file.svg',
 save:'file-convert.svg'
