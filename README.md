@@ -1,8 +1,14 @@
 # svg-text-to-vector
 
-> ### A powerful tool for working with text in SVG (Scalable Vector Graphics) files.
+> ### A powerful tool for runtime text to vector conversion of complex SVG files.
 
-**- Inkscape like Conversion:** An efficient solution to more traditional alternatives like Inkscape to perform the runtime conversion of complex svg files.
+**- Inkscape like Conversion:** An efficient solution to more traditional alternatives like Inkscape.
+
+**- Supported Tags:** Supports both **<text** and **<tspan** tags.
+
+**- Color Fills:** Supports **Solid Fill, Linear and Radial Gradients**.
+
+**- Attributes:** Supports attributes **x, y, opacity, stroke, stroke-width, stroke-dasharray, stroke-linecap, stroke-miterlimit**.
 
 **- Easy to Use:** Provides a simple API to convert text to vector format with just a few lines of code.
 
