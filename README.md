@@ -2,12 +2,6 @@
 
 > ### A powerful tool for runtime text to vector conversion of complex SVG files.
 
-## Installation
-
-```bash
-npm install --save svg-text-to-vector
-```
-
 ## Features:
 
 **- Supported Tags:** ‘text | tspan’.
@@ -18,6 +12,11 @@ npm install --save svg-text-to-vector
 
 **- Dynamic Font Handling:** Offers dynamic runtime addition of fonts to its native config/fonts.json file.  
 
+## Installation
+
+```bash
+npm install --save svg-text-to-vector
+```
 
 ## Usage
 
@@ -136,8 +135,8 @@ Params | &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 # Performance & Compatibility
 The package ensures fast and efficient performance and is fully compatible with all the popular Node.js frameworks.
 
-# Upgrade
-For major additions & upgrade, the creator of this package can be contacted any time at javedblch@gmail.com or via [LinkedIn](https://www.linkedin.com/in/javed-baloch-672a5013/).
+# Buy the Paid Version with more Features!
+The paid version, **[SVG Convert to Path]**(https://app.privjs.com/buy/packageDetail?pkg=svg-convert-to-path)
 
 # License
 
