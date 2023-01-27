@@ -4,7 +4,7 @@
 
 ## Features:
 
-**- Supported Tags:** ‘text | tspan’.
+**- Supported Tags:** 'text | tspan'.
 
 **- Attributes:** Supports all major attributes including  x, y, dx, dy, opacity, stroke, transform, class-based styling etc.
 
@@ -21,7 +21,7 @@ npm install --save svg-text-to-vector
 ## Usage
 
 ```bash
-const ConvertToPath = require(‘svg-text-to-vector’);
+const ConvertToPath = require('svg-text-to-vector');
 ```
 
 ### Load | Save as Files
@@ -43,12 +43,12 @@ const convert = await svgTextPath.getPath(options);
 
 ```javascript
 
-var svg = fs.readFileSync(‘./public/file.svg’);
+var svg = fs.readFileSync('./public/file.svg');
 svg=Buffer.from(svg);
 
 var options={
 load:svg,
-save:‘buffer’
+save:'buffer'
 }
 
 const convert = await ConvertToPath.getPath(options);
@@ -59,11 +59,11 @@ const convert = await ConvertToPath.getPath(options);
 
 ```javascript
 
-var svg = fs.readFileSync(‘./public/file.svg’,’base64’);
+var svg = fs.readFileSync('./public/file.svg','base64');
 
 var options={
 load:svg,
-save:‘base64’
+save:'base64'
 }
 
 const convert = await ConvertToPath.getPath(options);
@@ -74,11 +74,11 @@ const convert = await ConvertToPath.getPath(options);
 
 ```javascript
 
-var svg = fs.readFileSync(‘./public/file.svg’,{encoding:‘utf8’});
+var svg = fs.readFileSync('./public/file.svg',{encoding:'utf8'});
 
 var options={
 load:svg,
-save:‘utf8’ | ‘utf-8’
+save:'utf8' | 'utf-8'
 }
 
 const convert = await ConvertToPath.getPath(options);
@@ -144,7 +144,7 @@ The paid version, [**SVG Convert to Path**](https://github.com/javedblch/svg-con
 
 Complete list of features include:
 
-**- Supported Tags:** ‘text | tspan | rect | circle | ellipse | line | polyline | polygon’.
+**- Supported Tags:** 'text | tspan | rect | circle | ellipse | line | polyline | polygon'.
 
 **- Attributes:** Supports all major attributes including  x, y, dx, dy, opacity, stroke, transform, class-based styling etc.
 
@@ -158,6 +158,6 @@ Complete list of features include:
 
 **- Multilingual Font Handling:** In order for all Languages and Unicode characters to render correctly, you simply need to download **Arial Unicode MS** font and save it to **svg-convert-to-path/config/fonts** location as **arial-unicode-ms.ttf**. ([Click here](https://www.fonts100.com/5092/arial_unicode_ms.zip) to download the font) 
 
-**- Built-in Common Fonts:** ‘Helvetica | Arial | Verdana | Tahoma | Trebuchet MS | Impact | Times New Roman | Courier | Comic Sans MS’.
+**- Built-in Common Fonts:** 'Helvetica | Arial | Verdana | Tahoma | Trebuchet MS | Impact | Times New Roman | Courier | Comic Sans MS'.
 
 [**Click Here to Buy Now!**](https://github.com/javedblch/svg-convert-to-path)
