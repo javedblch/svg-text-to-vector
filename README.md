@@ -6,6 +6,7 @@
 
 ```bash
 npm install --save svg-text-to-vector
+```
 
 ## Features:
 
