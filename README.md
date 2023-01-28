@@ -21,7 +21,7 @@ npm install --save svg-text-to-vector
 ## Usage
 
 ```bash
-const ConvertToPath = require('svg-text-to-vector');
+const svgTextPath = require('svg-text-to-vector');
 ```
 
 ### Load | Save as Files
