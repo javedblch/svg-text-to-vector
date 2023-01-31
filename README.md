@@ -138,26 +138,3 @@ The package ensures fast and efficient performance and is fully compatible with 
 # License
 
 MIT
-
-# Buy the Paid Version with additional Features!
-The paid version, [**SVG Convert to Path**](https://github.com/javedblch/svg-convert-to-path) performs runtime path conversion of both svg shapes & text tags. 
-
-Complete list of features include:
-
-**- Supported Tags:** 'text | tspan | rect | circle | ellipse | line | polyline | polygon'.
-
-**- Attributes:** Supports all major attributes including  x, y, dx, dy, opacity, stroke, transform, class-based styling etc.
-
-**- Colors:** Supports Solid Fill, Linear and Radial Gradients.
-
-**- Multilingual Support:** Supports all Languages & Unicode characters.
-
-**- Dynamic Font Handling:** Offers dynamic runtime addition of fonts to its native config/fonts.json file. 
-
-**- Google Fonts:** In case of a missing font, the code will search for the required font from [Google Fonts Github](https://github.com/google/fonts). On failure, applies font from default settings. You may change the default font & font size settings from the source code files.
-
-**- Multilingual Font Handling:** In order for all Languages and Unicode characters to render correctly, you simply need to download **Arial Unicode MS** font and save it to **svg-convert-to-path/config/fonts** location as **arial-unicode-ms.ttf**. ([Click here](https://www.fonts100.com/5092/arial_unicode_ms.zip) to download the font) 
-
-**- Built-in Common Fonts:** 'Helvetica | Arial | Verdana | Tahoma | Trebuchet MS | Impact | Times New Roman | Courier | Comic Sans MS'.
-
-[**Click Here to Buy Now!**](https://github.com/javedblch/svg-convert-to-path)
